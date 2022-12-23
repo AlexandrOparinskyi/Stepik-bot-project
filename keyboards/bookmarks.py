@@ -16,7 +16,7 @@ def create_bookmarks_keyboard(*args: int) -> InlineKeyboardMarkup:
     bookmarks.add(
         InlineKeyboardButton(
             text=LEXICON['edit_bookmarks_button'],
-            callback_data='edit_doolmarks'
+            callback_data='edit_bookmarks'
         ),
         InlineKeyboardMarkup(
             text=LEXICON['cancel'],
